@@ -42,7 +42,9 @@
       "location": "inline",
       "envVars": {},
       "wires": [
-        []
+        [
+          "ECDC6700"
+        ]
       ]
     },
     {
@@ -55,6 +57,20 @@
         [
           "c4f32788"
         ]
+      ]
+    },
+    {
+      "id": "ECDC6700",
+      "type": "table",
+      "x": 640,
+      "y": 285,
+      "width": 100,
+      "height": 35,
+      "name": "myTable",
+      "hashKey": "id",
+      "hashKeyType": "string",
+      "wires": [
+        []
       ]
     }
   ]
