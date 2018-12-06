@@ -1,11 +1,15 @@
 {
   "Resources": {
-      "id": "33f563bc",
-      "type": "restApi",
-      "x": 380,
-      "y": 102,
-      "name": "Endpoint",
-      "path": "/stackery-ui-2/pr",
-      "domain": "build-trigger.stackery.io"
+      "id": "74e1458",
+      "type": "function",
+      "x": 580,
+      "y": 107,
+      "name": "runBuild",
+      "outputs": 1,
+      "memorySize": 1536,
+      "timeout": 300,
+      "runtime": "nodejs",
+      "location": "inline",
+      "entryPoint": ""
   }
 }
