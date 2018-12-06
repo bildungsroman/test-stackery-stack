@@ -1,65 +1,11 @@
 {
   "Resources": {
-  "nodes": [
-    {
       "id": "33f563bc",
       "type": "restApi",
       "x": 380,
       "y": 102,
       "name": "Endpoint",
       "path": "/stackery-ui-2/pr",
-      "domain": "build-trigger.stackery.io",
-      "wires": [
-        [
-          "74e1458"
-        ]
-      ]
-    },
-    {
-      "id": "74e1458",
-      "type": "function",
-      "x": 580,
-      "y": 107,
-      "name": "runBuild",
-      "outputs": 1,
-      "memorySize": 1536,
-      "timeout": 300,
-      "runtime": "nodejs",
-      "location": "inline",
-      "envVars": {
-        "GITHUB_TOKEN": "${config.githubCI.token}"
-      },
-      "entryPoint": "",
-      "wires": [
-        [
-          "bcf12519"
-        ]
-      ]
-    },
-    {
-      "id": "3885c2a",
-      "type": "cdn",
-      "x": 590,
-      "y": 227,
-      "name": "Content",
-      "wires": [
-        [
-          "bcf12519"
-        ]
-      ]
-    },
-    {
-      "id": "bcf12519",
-      "type": "objectStore",
-      "x": 770,
-      "y": 167,
-      "name": "Build",
-      "publicPermissions": "read",
-      "websiteHosting": false,
-      "wires": [
-        []
-      ]
-    }
-  ]
-}
+      "domain": "build-trigger.stackery.io"
+  }
 }
