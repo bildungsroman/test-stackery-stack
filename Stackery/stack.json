@@ -74,44 +74,14 @@
       ]
     },
     {
-      "id": "6CB1C8E3",
-      "type": "http",
-      "x": 235,
-      "y": 460,
-      "width": 240,
-      "height": 160
-    },
-    {
-      "id": "8A8C71D",
-      "type": "restApiEndpoint",
-      "x": 200,
-      "y": 445,
+      "id": "D2641783",
+      "type": "custom",
+      "x": 105,
+      "y": 75,
       "width": 100,
       "height": 35,
       "name": "",
-      "path": "/post",
-      "method": "POST",
-      "wires": [
-        [
-          "661d2f7d"
-        ]
-      ]
-    },
-    {
-      "id": "E215780A",
-      "type": "restApiEndpoint",
-      "x": 220,
-      "y": 490,
-      "width": 100,
-      "height": 35,
-      "name": "",
-      "path": "/get",
-      "method": "GET",
-      "wires": [
-        [
-          "661d2f7d"
-        ]
-      ]
+      "implements": "none"
     }
   ]
 }
