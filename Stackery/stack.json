@@ -82,6 +82,25 @@
       "height": 35,
       "name": "",
       "implements": "none"
+    },
+    {
+      "id": "590815E6",
+      "type": "function",
+      "x": 480,
+      "y": 59,
+      "width": 100,
+      "height": 35,
+      "name": "myFunction",
+      "outputs": 1,
+      "memorySize": 3008,
+      "timeout": 30,
+      "runtime": "nodejs8",
+      "location": "inline",
+      "envVars": {},
+      "entryPoint": "",
+      "wires": [
+        []
+      ]
     }
   ]
 }
