@@ -101,6 +101,27 @@
       "wires": [
         []
       ]
+    },
+    {
+      "id": "EEE2D7FA",
+      "type": "loadBalancer",
+      "x": 320,
+      "y": 492,
+      "width": 100,
+      "height": 35,
+      "name": "myLoadBalancer",
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "977CF396",
+      "type": "virtualNetwork",
+      "x": 335,
+      "y": 580,
+      "width": 600,
+      "height": 400,
+      "ipRange": "10.0.0.0/16"
     }
   ]
 }
