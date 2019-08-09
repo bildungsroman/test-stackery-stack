@@ -121,6 +121,7 @@
       "y": 580,
       "width": 600,
       "height": 400,
+      "name": "myMoneyDrainer",
       "ipRange": "10.0.0.0/16"
     }
   ]
