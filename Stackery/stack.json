@@ -54,7 +54,9 @@
       "type": "restApi",
       "x": 210,
       "y": 280,
+      "name": "AnotherApi",
       "path": "/{message}",
+      "domain": "api.example2.com",
       "wires": [
         [
           "c4f32788"
