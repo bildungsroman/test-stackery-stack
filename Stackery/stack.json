@@ -22,7 +22,9 @@
       "type": "restApi",
       "x": 190,
       "y": 220,
+      "name": "Api",
       "path": "/",
+      "domain": "api.example.com",
       "wires": [
         [
           "661d2f7d"
