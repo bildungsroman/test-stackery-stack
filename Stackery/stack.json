@@ -137,7 +137,7 @@
       "height": 35,
       "name": "Database",
       "engine": "postgres",
-      "version": "10.1",
+      "version": "9.4",
       "storageSize": 5,
       "backupRetentionPeriod": 0,
       "instanceType": "db.t2.micro",
